@@ -1,0 +1,45 @@
+.summary-screen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  margin: 4rem;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.summary-screen-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summary-screen-image {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+}
+
+.summary-screen-button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 50%;
+  height: 50px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.summary-screen-button:hover {
+  background-color: #0069d9;
+}
+
+.para {
+  text-align: center;
+}
